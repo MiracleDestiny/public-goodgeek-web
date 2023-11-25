@@ -111,7 +111,7 @@ nav{
 /* For Vision */
 
 .parallax{  
-  background-image: url("/goodgeek-website/resources/images/GoodGeek_cover.png");
+  background-image: url("../images/GoodGeek_cover.png");
   position: relative;
   min-height: 1000px;
   background-attachment: fixed;
