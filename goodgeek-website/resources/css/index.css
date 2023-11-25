@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*  */
+body{
+    font-family: 'Prompt';
+}
+
+nav{
+    font-family: 'Prompt';
+}
+/* For activity */
+.image{
+    width: 90%;
+    height: 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffccc5;
+}
+.imageV2{
+    width: 90%;
+    height: 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+}
+.imageV3{
+    width: 90%;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+}
+.Picture-2{
+    width: 400px;
+    align-items: center;
+}
+
+.Picture-3{
+    width: 450px;
+    align-items: center;
+}
+.Picture-4{
+    width: 600px;
+    align-items: center;
+}
+.Picture-5{
+    width: 650px;
+    align-items: center;
+}
+.tab_content{
+    font-size: 30px;
+    text-align: left;
+}
+.tab_content2{
+    font-size: 30px;
+    text-align: left;
+}
+.normalcontent {
+    font-size: 30px;
+    text-align: left;
+}
+
+.tablinks{
+    font-size: 28px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.tablinks2{
+    font-size: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tablinks:hover{
+    color: #E07B6E;
+}
+.tablinks2:hover{
+    color: #E07B6E;
+    text-decoration: underline;
+}
+
+.tab button.active{
+    color: #E07B6E;
+    text-decoration: underline;
+}
+/* For activity */
+
+/* For Vision */
+.Vision-text {
+    margin-right: 0px;
+    transition: all 1s ease-in;
+}
+.Vision-image {
+    margin-left: 0px;
+    transition: all 1s ease-in;
+}
+.Vision-Box:hover .Vision-text{
+    margin-right: 30px;
+}
+.Vision-Box:hover .Vision-image{
+    margin-left: 50px;
+}
+
+.cover-text{
+    text-align: center;
+}
+
+/* For Vision */
+
+.parallax{  
+  background-image: url("/goodgeek-website/resources/images/GoodGeek_cover.png");
+  position: relative;
+  min-height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.team-image{
+    align-content: center;
+}
+.navbar{
+    /* testpush */
+}
+body{
+    font-family: 'Prompt', sans-serif;
+}
